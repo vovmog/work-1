@@ -1,0 +1,138 @@
+@font-face {
+  font-family: 'FuturaBookC';
+  src: url('../fonts/FuturaBookC.eot');
+  src: url('../fonts/FuturaBookC.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/FuturaBookC.woff2') format('woff2'),
+  url('../fonts/FuturaBookC.woff') format('woff'),
+  url('../fonts/FuturaBookC.ttf') format('truetype'),
+  url('../fonts/FuturaBookC.svg#FuturaBookC') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+*
+  padding: 0
+  margin: 0
+  box-sizing border-box
+
+
+body
+  font-weight: normal;
+  font-style: normal;
+  line-height: normal;
+  font-family: 'FuturaBookC';
+  background-color: #010F1A
+  color: #fff
+a
+  color: #ffffff
+  text-decoration: none
+
+  &:hover
+    color: #ff3838
+
+ul
+  list-style none
+
+
+.wrap-all
+  max-width: 1230px
+  margin: auto
+
+.h-logo
+  height: 60px
+  h1
+    text-align: center
+    a:hover
+      color: #ffffff
+
+.menu-top1,.menu-top2
+  ul
+    text-align: center
+    max-width 600px
+    margin: auto
+    li
+      display: inline-block
+      a
+        text-transform uppercase
+
+.menu-top1
+  border 1px solid #263034
+  margin-bottom: 17px
+  ul
+    li
+      padding: 12px 13px 6px;
+      a
+        font-size: 13px;
+        letter-spacing: 0.08em;
+
+.menu-top2
+  margin-bottom 20px
+  li
+    margin-right: 20px
+    position relative
+    &::after
+      content: '';
+      width: 1px;
+      height: 1px;
+      transform: rotate(45deg);
+      border: 2px solid #fff;
+      position: absolute;
+      right: -14px;
+      top: 8px;
+    &:last-child::after
+      display: none
+    a
+      font-size: 10px;
+      letter-spacing: 0.1em;
+
+.main-slider
+  margin-top: 50px
+
+footer
+  margin-top: 20px
+  height: 41px
+  border-top: 2px solid rgb(51, 45, 36)
+  p
+    text-align: center
+    line-height: 41px
+
+.content-area
+  margin auto
+  max-width: 920px
+  background-color: #E8E7E7
+  color: #4d4d4d
+  padding: 40px
+  h3
+    margin-left: 100px
+    margin-bottom: 10px
+
+
+  
+  img.alignright
+    margin: -71px -40px -40px 10px
+  img.alignleft
+    margin: -71px 10px -40px -40px
+
+.alignright
+  float: right;
+.alignleft
+  float: left;
+
+
+
+
+  /*------------------ClearFix-------------------*/
+/* For modern browsers */
+.clearfix:before,
+.clearfix:after
+  content: "";
+  display: table;
+.clearfix:after
+  clear: both;
+/* для IE6-7 */
+.clearfix
+  zoom: 1;
+
+  /*--------------------END ClearFix-----------------*/
+
+

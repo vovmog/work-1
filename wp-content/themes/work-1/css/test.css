@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #2d2d2d;
+  color: #fff;
+}
+ul {
+  list-style: none;
+}
+.wrap-all {
+  max-width: 1350px;
+  margin: auto;
+  padding: 0 100px;
+  background: url("../img/bg.jpg");
+}
+header .header-left img {
+  margin-right: 5px;
+}
+header .header-center {
+  text-align: center;
+}
+header .header-right img {
+  margin-right: 7px;
+}

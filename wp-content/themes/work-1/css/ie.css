@@ -1,0 +1,8 @@
+@media screen and (max-width: 750px) {
+  header ul.header-center {
+    margin-top: 135px;
+  }
+  header ul.header-center li.Quest {
+    top: 35px;
+  }
+}
