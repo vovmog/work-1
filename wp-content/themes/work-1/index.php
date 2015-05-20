@@ -2,7 +2,7 @@
 
 
 <div class="main-slider">
-    <?php layerslider(1) ?>
+    <?php layerslider(2) ?>
 </div>
 
 
