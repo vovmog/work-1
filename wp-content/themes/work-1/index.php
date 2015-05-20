@@ -5,4 +5,6 @@
     <?php layerslider(1) ?>
 </div>
 
+
+
 <?php get_footer() ?>
