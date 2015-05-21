@@ -66,6 +66,9 @@ ul {
   font-size: 13px;
   letter-spacing: 0.08em;
 }
+.menu-top2 {
+  margin-bottom: 20px;
+}
 .menu-top2 li {
   margin-right: 20px;
   position: relative;
@@ -100,16 +103,31 @@ footer p {
   line-height: 41px;
 }
 .content-area {
-  width: 920px;
+  margin: auto;
+  max-width: 920px;
   background-color: #e8e7e7;
   color: #4d4d4d;
   padding: 40px;
+}
+.content-area h3 {
+  margin-left: 100px;
+  margin-bottom: 10px;
+}
+.content-area img:first-child {
+  width: 500px;
+}
+.content-area img.alignright {
+  margin: -71px -40px -40px 10px;
+}
+.content-area img.alignleft {
+  margin: -71px 10px -40px -40px;
 }
 .alignright {
   float: right;
 }
 .alignleft {
   float: left;
+/*------------------ClearFix-------------------*/
 }
 /* For modern browsers */
 .clearfix:before,
@@ -123,4 +141,5 @@ footer p {
 /* ��� IE6-7 */
 .clearfix {
   zoom: 1;
+/*--------------------END ClearFix-----------------*/
 }
